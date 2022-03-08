@@ -1,0 +1,36 @@
+@baseURL = http://localhost:3000/api
+
+#Categories
+
+# @name getAllCategories
+GET {{baseURL}}/categories
+
+###
+
+# @name addNewCategory
+POST {{baseURL}}/categories
+Content-Type: application/json
+
+{
+  "name": "Tủ lạnh"
+}
+
+###
+
+# @name updateCategory
+PATCH {{baseURL}}/categories/iZNWmHb
+Content-Type: application/json
+
+{
+  "name": "Tủ lạnh cũ"
+}
+
+###
+
+# @name removeCategory
+DELETE {{baseURL}}/categories/iZNWmHb
+Content-Type: application/json
+
+{
+  "name": "Tủ lạnh cũ"
+}
