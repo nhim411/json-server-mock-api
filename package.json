@@ -1,11 +1,19 @@
 {
   "name": "json-server-mock-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "mockup api",
   "main": "index.js",
   "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "nhim411",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
