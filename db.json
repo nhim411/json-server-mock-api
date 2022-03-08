@@ -41,6 +41,12 @@
       "searchTerm": "iphone",
       "createdAt": 1633700485643,
       "updatedAt": 1633700485643
+    },
+    {
+      "name": "Tủ lạnh cũ",
+      "createdAt": 1646731837824,
+      "updatedAt": 1646731837824,
+      "id": "iZNWmHb"
     }
   ],
   "products": [
@@ -141,7 +147,9 @@
       "salePrice": 125000,
       "isPromotion": 1,
       "promotionPercent": 31,
-      "images": ["https://media3.scdn.vn/img4/2021/03_25/kXl0MxkIMIfpbbRfwXPS.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2021/03_25/kXl0MxkIMIfpbbRfwXPS.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1633700491620,
       "updatedAt": 1633700491620,
@@ -426,7 +434,9 @@
       "salePrice": 49000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2020/07_09/xCoTxT7XCWX5rjtBrWsj.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2020/07_09/xCoTxT7XCWX5rjtBrWsj.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1633700504613,
       "updatedAt": 1633700504613,
@@ -921,7 +931,9 @@
       "salePrice": 1900000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2020/12_27/d1V2WUyqs2VkQrFJBMRy.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2020/12_27/d1V2WUyqs2VkQrFJBMRy.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1633700532052,
       "updatedAt": 1633700532052,
@@ -1428,7 +1440,9 @@
       "salePrice": 41999000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2021/10_04/QzHK3QanrGnhmxQVE4sj.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2021/10_04/QzHK3QanrGnhmxQVE4sj.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1633700563802,
       "updatedAt": 1633700563802,
@@ -1550,7 +1564,9 @@
       "salePrice": 46999000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2021/09_28/8Xd8pcmooWIJWDG3lZyC.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2021/09_28/8Xd8pcmooWIJWDG3lZyC.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1633700569028,
       "updatedAt": 1633700569028,
@@ -1605,7 +1621,9 @@
       "salePrice": 41999000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2021/09_28/IbHdYMvzrF0GSFOIhrge.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2021/09_28/IbHdYMvzrF0GSFOIhrge.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1633700571665,
       "updatedAt": 1633700571665,
@@ -1979,7 +1997,9 @@
       "salePrice": 425000,
       "isPromotion": 1,
       "promotionPercent": 13,
-      "images": ["https://media3.scdn.vn/img4/2020/06_18/OOIoW4GqFPtcEevnioFr.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img4/2020/06_18/OOIoW4GqFPtcEevnioFr.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1633700593314,
       "updatedAt": 1633700593314,
@@ -1994,7 +2014,9 @@
       "salePrice": 388000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img3/2019/12_8/zm3h0c.jpg"],
+      "images": [
+        "https://media3.scdn.vn/img3/2019/12_8/zm3h0c.jpg"
+      ],
       "isFreeShip": false,
       "createdAt": 1633700594295,
       "updatedAt": 1633700594295,
@@ -2133,7 +2155,9 @@
       "salePrice": 1300000,
       "isPromotion": 0,
       "promotionPercent": 0,
-      "images": ["https://media3.scdn.vn/img4/2020/09_01/huiklwLOJ8Tzlfrb47MM.png"],
+      "images": [
+        "https://media3.scdn.vn/img4/2020/09_01/huiklwLOJ8Tzlfrb47MM.png"
+      ],
       "isFreeShip": false,
       "createdAt": 1633700602102,
       "updatedAt": 1633700602102,
