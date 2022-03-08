@@ -1,0 +1,50 @@
+@baseURL = http://localhost:3000/api
+@resourceName = products
+
+
+# @name getAll
+GET {{baseURL}}/{{resourceName}}
+
+###
+
+# @name pagination
+GET {{baseURL}}/{{resourceName}}?_page=1&_limit=2
+
+###
+
+# @name sort
+GET {{baseURL}}/{{resourceName}}?_sort=price&_order=asc
+
+###
+# @name addNew
+POST {{baseURL}}/{{resourceName}}
+Content-Type: application/json
+
+{
+  "name": "Tủ lạnh"
+}
+
+###
+
+# @name filter
+GET {{baseURL}}/{{resourceName}}?material=Fresh
+
+###
+
+# @name update
+PATCH {{baseURL}}/{{resourceName}}/iZNWmHb
+Content-Type: application/json
+
+{
+  "name": "Tủ lạnh cũ"
+}
+
+###
+
+# @name remove
+DELETE {{baseURL}}/{{resourceName}}/iZNWmHb
+Content-Type: application/json
+
+{
+  "name": "Tủ lạnh cũ"
+}
