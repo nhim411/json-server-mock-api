@@ -28,7 +28,7 @@ npm run dev //start dev server
 Getting a resource
 
 ```js
-fetch('https://mock-api-demo.herokuapp.com/posts/1')
+fetch('https://mock-api-demo.herokuapp.com/api/posts/1')
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
@@ -44,7 +44,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts/1')
 
 Listing all resources
 ```js
-fetch('https://mock-api-demo.herokuapp.com/posts')
+fetch('https://mock-api-demo.herokuapp.com/api/posts')
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
@@ -61,7 +61,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts')
 
 Creating a resource
 ```js
-fetch('https://mock-api-demo.herokuapp.com/posts', {
+fetch('https://mock-api-demo.herokuapp.com/api/posts', {
   method: 'POST',
   body: JSON.stringify({
     title: 'foo',
@@ -86,7 +86,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts', {
 ```
 Updating a resource
 ```js
-fetch('https://mock-api-demo.herokuapp.com/posts/1', {
+fetch('https://mock-api-demo.herokuapp.com/api/posts/1', {
   method: 'PUT',
   body: JSON.stringify({
     id: 1,
@@ -112,7 +112,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts/1', {
 ```
 Patching a resource
 ```js
-fetch('https://mock-api-demo.herokuapp.com/posts/1', {
+fetch('https://mock-api-demo.herokuapp.com/api/posts/1', {
   method: 'PATCH',
   body: JSON.stringify({
     title: 'foo',
@@ -136,7 +136,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts/1', {
 
 Deleting a resource
 ```js
-fetch('https://mock-api-demo.herokuapp.com/posts/1', {
+fetch('https://mock-api-demo.herokuapp.com/api/posts/1', {
   method: 'DELETE',
 });
 ```
@@ -144,7 +144,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts/1', {
 Filtering resources
 ```js
 // This will return all the posts that belong to the first user
-fetch('https://mock-api-demo.herokuapp.com/posts?userId=1')
+fetch('https://mock-api-demo.herokuapp.com/api/posts?userId=1')
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
@@ -153,7 +153,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts?userId=1')
 Listing nested resources
 ```js
 // This is equivalent to /comments?postId=1
-fetch('https://mock-api-demo.herokuapp.com/posts/1/comments')
+fetch('https://mock-api-demo.herokuapp.com/api/posts/1/comments')
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
