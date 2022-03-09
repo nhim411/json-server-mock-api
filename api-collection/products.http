@@ -8,7 +8,7 @@ GET {{baseURL}}/{{resourceName}}
 ###
 
 # @name pagination
-GET {{baseURL}}/{{resourceName}}?_page=1&_limit=2
+GET {{baseURL}}/{{resourceName}}?_page=1&_limit=5
 
 ###
 
@@ -21,8 +21,13 @@ POST {{baseURL}}/{{resourceName}}
 Content-Type: application/json
 
 {
-  "name": "Tủ lạnh"
-}
+    "categoryId": "612e2a1a-f01b-40b6-9a81-13a9386cd277",
+    "name": "Toys",
+    "material": "Cotton",
+    "price": 120,
+    "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+    "thumbnailURL": "http://placeimg.com/400/400"
+  }
 
 ###
 
@@ -32,11 +37,11 @@ GET {{baseURL}}/{{resourceName}}?material=Fresh
 ###
 
 # @name update
-PATCH {{baseURL}}/{{resourceName}}/iZNWmHb
+PATCH {{baseURL}}/{{resourceName}}/oNk_MTP
 Content-Type: application/json
 
 {
-  "name": "Tủ lạnh cũ"
+  "material": "Prozen"
 }
 
 ###
