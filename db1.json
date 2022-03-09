@@ -1,0 +1,325 @@
+{
+  "categories": [
+    {
+      "id": "612e2a1a-f01b-40b6-9a81-13a9386cd277",
+      "name": "Toys",
+      "createdAt": 1646757094728,
+      "updatedAt": 1646757094728
+    },
+    {
+      "id": "2c51cdde-afe9-4e32-97d6-b8c2b8862895",
+      "name": "Baby",
+      "createdAt": 1646757094728,
+      "updatedAt": 1646757094728
+    },
+    {
+      "id": "421295a8-ccae-46b8-a499-70f188b09d62",
+      "name": "Tools",
+      "createdAt": 1646757094728,
+      "updatedAt": 1646757094728
+    },
+    {
+      "id": "47db6cf9-b31a-4cbb-b76a-c0859cbaf3a2",
+      "name": "Books",
+      "createdAt": 1646757094728,
+      "updatedAt": 1646757094728
+    },
+    {
+      "id": "929073d5-e48f-4793-8541-9315e30a4439",
+      "name": "Garden",
+      "createdAt": 1646757094728,
+      "updatedAt": 1646757094728
+    }
+  ],
+  "products": [
+    {
+      "categoryId": "612e2a1a-f01b-40b6-9a81-13a9386cd277",
+      "id": "8329188f-efca-4eff-8ee7-13a6c42ba501",
+      "name": "Toys",
+      "material": "Cotton",
+      "price": 100,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094728,
+      "updatedAt": 1646757094728
+    },
+    {
+      "categoryId": "612e2a1a-f01b-40b6-9a81-13a9386cd277",
+      "id": "3888fe2e-f854-4e09-b4ea-8606e9e78c7b",
+      "name": "Games",
+      "material": "Frozen",
+      "price": 6,
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094728,
+      "updatedAt": 1646757094728
+    },
+    {
+      "categoryId": "612e2a1a-f01b-40b6-9a81-13a9386cd277",
+      "id": "3749d583-44c1-463c-a8c0-5e1b5441a5f7",
+      "name": "Electronics",
+      "material": "Concrete",
+      "price": 93,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "612e2a1a-f01b-40b6-9a81-13a9386cd277",
+      "id": "91a36011-8e20-4937-aba7-cd73d29d00c7",
+      "name": "Grocery",
+      "material": "Concrete",
+      "price": 46,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "612e2a1a-f01b-40b6-9a81-13a9386cd277",
+      "id": "679cc24f-f95a-469e-b552-bea2ec255322",
+      "name": "Home",
+      "material": "Cotton",
+      "price": 81,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "2c51cdde-afe9-4e32-97d6-b8c2b8862895",
+      "id": "8dfe63df-83d1-4c4d-bd80-b6b32518228e",
+      "name": "Toys",
+      "material": "Concrete",
+      "price": 68,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "2c51cdde-afe9-4e32-97d6-b8c2b8862895",
+      "id": "3c8d0489-e4a5-48a8-a41e-a73dbcecf7c2",
+      "name": "Clothing",
+      "material": "Wooden",
+      "price": 87,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "2c51cdde-afe9-4e32-97d6-b8c2b8862895",
+      "id": "2e00bf1a-38e9-4d16-aac4-26de18a84ac6",
+      "name": "Automotive",
+      "material": "Frozen",
+      "price": 60,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "2c51cdde-afe9-4e32-97d6-b8c2b8862895",
+      "id": "3faa3fce-7fa4-4385-bd38-f91ad59516bb",
+      "name": "Electronics",
+      "material": "Frozen",
+      "price": 98,
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "2c51cdde-afe9-4e32-97d6-b8c2b8862895",
+      "id": "907d5314-82bd-4a41-9c7a-e9c3b254c654",
+      "name": "Automotive",
+      "material": "Rubber",
+      "price": 2,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "421295a8-ccae-46b8-a499-70f188b09d62",
+      "id": "efe21f6b-3acd-4af6-9da1-2a2187063995",
+      "name": "Kids",
+      "material": "Concrete",
+      "price": 77,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "421295a8-ccae-46b8-a499-70f188b09d62",
+      "id": "c1b3e752-419a-49b0-b9fc-d92a795f2775",
+      "name": "Tools",
+      "material": "Steel",
+      "price": 68,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "421295a8-ccae-46b8-a499-70f188b09d62",
+      "id": "79181011-bb26-4b4d-8446-5bc5de2dedba",
+      "name": "Baby",
+      "material": "Wooden",
+      "price": 79,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "421295a8-ccae-46b8-a499-70f188b09d62",
+      "id": "e3be4f4c-b430-437e-bfa0-5d90addb1a5a",
+      "name": "Jewelery",
+      "material": "Plastic",
+      "price": 37,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "421295a8-ccae-46b8-a499-70f188b09d62",
+      "id": "770e2283-cd73-4371-b808-a135ca1027c3",
+      "name": "Tools",
+      "material": "Concrete",
+      "price": 63,
+      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "47db6cf9-b31a-4cbb-b76a-c0859cbaf3a2",
+      "id": "3c15d70e-9c8a-42e9-bd3c-b4bbfe102c62",
+      "name": "Tools",
+      "material": "Concrete",
+      "price": 94,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "47db6cf9-b31a-4cbb-b76a-c0859cbaf3a2",
+      "id": "9db40f20-c6be-4dd7-80dd-67263e5a26a8",
+      "name": "Garden",
+      "material": "Wooden",
+      "price": 70,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "47db6cf9-b31a-4cbb-b76a-c0859cbaf3a2",
+      "id": "fbaf3423-8b4d-426c-9bf9-4879d07a5d74",
+      "name": "Books",
+      "material": "Wooden",
+      "price": 47,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "47db6cf9-b31a-4cbb-b76a-c0859cbaf3a2",
+      "id": "a51a916e-2bac-42cf-8954-5595fc1ed5d5",
+      "name": "Kids",
+      "material": "Frozen",
+      "price": 30,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094729,
+      "updatedAt": 1646757094729
+    },
+    {
+      "categoryId": "47db6cf9-b31a-4cbb-b76a-c0859cbaf3a2",
+      "id": "d1fb675e-8b43-4147-973a-caeb4f6c3524",
+      "name": "Grocery",
+      "material": "Soft",
+      "price": 93,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094730,
+      "updatedAt": 1646757094730
+    },
+    {
+      "categoryId": "929073d5-e48f-4793-8541-9315e30a4439",
+      "id": "f586c021-bbec-45c0-bd8d-688d687bfda4",
+      "name": "Shoes",
+      "material": "Steel",
+      "price": 8,
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094730,
+      "updatedAt": 1646757094730
+    },
+    {
+      "categoryId": "929073d5-e48f-4793-8541-9315e30a4439",
+      "id": "27e92e60-edf1-49fb-85ed-60cb4d444848",
+      "name": "Tools",
+      "material": "Plastic",
+      "price": 23,
+      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094730,
+      "updatedAt": 1646757094730
+    },
+    {
+      "categoryId": "929073d5-e48f-4793-8541-9315e30a4439",
+      "id": "0bece708-ad49-4873-a690-90c61c9dddcc",
+      "name": "Games",
+      "material": "Wooden",
+      "price": 31,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094730,
+      "updatedAt": 1646757094730
+    },
+    {
+      "categoryId": "929073d5-e48f-4793-8541-9315e30a4439",
+      "id": "4d5faa8d-0cf4-4a93-9e98-ca451aed60bc",
+      "name": "Health",
+      "material": "Metal",
+      "price": 70,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094730,
+      "updatedAt": 1646757094730
+    },
+    {
+      "categoryId": "929073d5-e48f-4793-8541-9315e30a4439",
+      "id": "01c3692e-8334-48d8-b749-635bfb6e7806",
+      "name": "Home",
+      "material": "Fresh",
+      "price": 47,
+      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646757094730,
+      "updatedAt": 1646757094730
+    },
+    {
+      "categoryId": "612e2a1a-f01b-40b6-9a81-13a9386cd277",
+      "name": "Toys",
+      "material": "Prozen",
+      "price": 120,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "thumbnailURL": "http://placeimg.com/400/400",
+      "createdAt": 1646758767655,
+      "updatedAt": 1646758817751,
+      "id": "oNk_MTP"
+    }
+  ],
+  "profile": {
+    "name": "foo"
+  }
+}
