@@ -9,6 +9,12 @@ Free fake API for testing and prototyping.
 
 Website: [https://mock-api-demo.herokuapp.com](https://mock-api-demo.herokuapp.com/)
 
+Features:
+- REST API with Node.js and json-server: Deploying to Heroku
+- Create random database with faker.js library
+- Custom server response
+- Home page
+
 ## Deploy (local)
 
 - Requited: Node js environment [Node js](https://nodejs.org/en/)
