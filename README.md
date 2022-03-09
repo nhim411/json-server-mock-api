@@ -156,6 +156,13 @@ fetch('https://mock-api-demo.herokuapp.com/posts/1/comments')
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
+
+The available nested routes are:
+- [/api/posts/1/comments](https://mock-api-demo.herokuapp.com/api/posts/1/comments)
+- [/api/albums/1/photos](https://mock-api-demo.herokuapp.com/api/albums/1/photos)
+- [/api/users/1/albums](https://mock-api-demo.herokuapp.com/api/users/1/albums)
+- [/api/users/1/todos](https://mock-api-demo.herokuapp.com/api/users/1/todos)
+- [/api/users/1/posts](https://mock-api-demo.herokuapp.com/api/users/1/posts)
 ---
 
 ## License

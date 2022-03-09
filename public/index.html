@@ -58,7 +58,7 @@
         </p>
         <h1>Guide</h1>
         <h3>Getting a resource</h3>
-        <pre><code class="language-js">fetch('https://jsonplaceholder.typicode.com/posts/1')
+        <pre><code class="language-js">fetch('https://mock-api-demo.herokuapp.com/api/posts/1')
   .then((response) =&gt; response.json())
   .then((json) =&gt; console.log(json));
 </code></pre>
@@ -71,7 +71,7 @@
 }
 </code></pre>
         <h3>Listing all resources</h3>
-        <pre><code class="language-js">fetch('https://jsonplaceholder.typicode.com/posts')
+        <pre><code class="language-js">fetch('https://mock-api-demo.herokuapp.com/api/posts')
   .then((response) =&gt; response.json())
   .then((json) =&gt; console.log(json));
 </code></pre>
@@ -85,7 +85,7 @@
 ];
 </code></pre>
         <h3>Creating a resource</h3>
-        <pre><code class="language-js">fetch('https://jsonplaceholder.typicode.com/posts', {
+        <pre><code class="language-js">fetch('https://mock-api-demo.herokuapp.com/api/posts', {
   method: 'POST',
   body: JSON.stringify({
     title: 'foo',
@@ -112,7 +112,7 @@
           be faked as if.
         </p>
         <h3>Updating a resource</h3>
-        <pre><code class="language-js">fetch('https://jsonplaceholder.typicode.com/posts/1', {
+        <pre><code class="language-js">fetch('https://mock-api-demo.herokuapp.com/api/posts/1', {
   method: 'PUT',
   body: JSON.stringify({
     id: 1,
@@ -140,7 +140,7 @@
           be faked as if.
         </p>
         <h3>Patching a resource</h3>
-        <pre><code class="language-js">fetch('https://jsonplaceholder.typicode.com/posts/1', {
+        <pre><code class="language-js">fetch('https://mock-api-demo.herokuapp.com/api/posts/1', {
   method: 'PATCH',
   body: JSON.stringify({
     title: 'foo',
@@ -165,7 +165,7 @@
           be faked as if.
         </p>
         <h3>Deleting a resource</h3>
-        <pre><code class="language-js">fetch('https://jsonplaceholder.typicode.com/posts/1', {
+        <pre><code class="language-js">fetch('https://mock-api-demo.herokuapp.com/api/posts/1', {
   method: 'DELETE',
 });
 </code></pre>
@@ -176,24 +176,24 @@
         <h3>Filtering resources</h3>
         <p>Basic filtering is supported through query parameters.</p>
         <pre><code class="language-js">// This will return all the posts that belong to the first user
-fetch('https://jsonplaceholder.typicode.com/posts?userId=1')
+fetch('https://mock-api-demo.herokuapp.com/api/posts?userId=1')
   .then((response) =&gt; response.json())
   .then((json) =&gt; console.log(json));
 </code></pre>
         <h3>Listing nested resources</h3>
         <p>One level of nested route is available.</p>
         <pre><code class="language-js">// This is equivalent to /comments?postId=1
-fetch('https://jsonplaceholder.typicode.com/posts/1/comments')
+fetch('https://mock-api-demo.herokuapp.com/api/posts/1/comments')
   .then((response) =&gt; response.json())
   .then((json) =&gt; console.log(json));
 </code></pre>
         <p>The available nested routes are:</p>
         <ul>
-          <li><a href="/posts/1/comments">/posts/1/comments</a></li>
-          <li><a href="/albums/1/photos">/albums/1/photos</a></li>
-          <li><a href="/users/1/albums">/users/1/albums</a></li>
-          <li><a href="/users/1/todos">/users/1/todos</a></li>
-          <li><a href="/users/1/posts">/users/1/posts</a></li>
+          <li><a href="/api/posts/1/comments">/api/posts/1/comments</a></li>
+          <li><a href="/api/albums/1/photos">/api/albums/1/photos</a></li>
+          <li><a href="/api/users/1/albums">/api/users/1/albums</a></li>
+          <li><a href="/api/users/1/todos">/api/users/1/todos</a></li>
+          <li><a href="/api/users/1/posts">/api/users/1/posts</a></li>
         </ul>
       </div>
     </main>
