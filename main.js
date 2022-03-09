@@ -1,7 +1,7 @@
 const jsonServer = require('json-server');
 const queryString = require('query-string');
 const server = jsonServer.create();
-const router = jsonServer.router('db1.json'); //load db.json file
+const router = jsonServer.router('db.json'); //load db.json file
 const middlewares = jsonServer.defaults();
 
 // Set default middlewares (logger, static, cors and no-cache)

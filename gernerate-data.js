@@ -59,7 +59,7 @@ const randomProductList = (categoryList, numberOfProducts) => {
   //prepare db object
 
   //white db object to db json
-  fs.writeFile('db1.json', JSON.stringify(db), () => {
+  fs.writeFile('db.json', JSON.stringify(db), () => {
     console.log('Generate data successfully');
   });
 })();
