@@ -15,7 +15,7 @@ Website: [https://mock-api-demo.herokuapp.com](https://mock-api-demo.herokuapp.c
 - Clone this project
 - Run step by step in terminal
 
-```json
+```
 npm install
 
 node generate-data.js //optional: generate random data
@@ -26,13 +26,14 @@ npm run dev //start dev server
 
 ## Usage
 Getting a resource
+
 ```bash
 fetch('https://mock-api-demo.herokuapp.com/posts/1')
   .then((response) => response.json())
   .then((json) => console.log(json));
 ```
 👇 Output
-```bash
+```js
 {
   id: 1,
   title: '...',
@@ -48,7 +49,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts')
   .then((json) => console.log(json));
 ```
 👇 Output
-```bash
+```js
 [
   { id: 1, title: '...' /* ... */ },
   { id: 2, title: '...' /* ... */ },
@@ -75,7 +76,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts', {
   .then((json) => console.log(json));
 ```
 👇 Output
-```bash
+```js
 {
   id: 101,
   title: 'foo',
@@ -101,7 +102,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts/1', {
   .then((json) => console.log(json));
 ```
 👇 Output
-```bash
+```js
 {
   id: 1,
   title: 'foo',
@@ -124,7 +125,7 @@ fetch('https://mock-api-demo.herokuapp.com/posts/1', {
   .then((json) => console.log(json));
 ```
 👇 Output
-```bash
+```js
 {
   id: 1,
   title: 'foo',
