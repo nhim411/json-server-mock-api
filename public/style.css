@@ -1,0 +1,217 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  color: #3b4252;
+  letter-spacing: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 1rem;
+}
+
+header {
+  border-bottom: 1px solid #eee;
+}
+
+header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+nav li.title {
+  flex-grow: 5;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #3b4252;
+}
+
+nav li {
+  flex-grow: 1;
+  align-self: center;
+  text-align: right;
+  color: #4c566a;
+}
+
+.fa-heart {
+  color: deeppink;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  margin-top: 4rem;
+  border-top: 1px solid #eee;
+}
+
+h1 {
+  margin-top: 4rem;
+  font-weight: normal;
+}
+
+i {
+  margin-right: 0.5rem;
+}
+
+a {
+  color: #5e81ac;
+}
+
+a:hover {
+  color: #81a1c1;
+  text-decoration: underline;
+}
+
+table {
+  margin-left: 0;
+}
+
+td {
+  border: 0;
+  padding: 0 1em 0.5em 0;
+}
+
+td:first-child {
+  width: 1%;
+  white-space: nowrap;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-bottom: 0.2rem;
+}
+
+code {
+  padding: 0.2rem;
+  margin: 0rem 0.2rem;
+  border-radius: 0.2rem;
+  background: #e5e9f0;
+}
+
+pre {
+  border-radius: 0.5rem !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  padding: 1.5rem !important;
+}
+
+code[class*='language-'],
+pre[class*='language-'] {
+  color: #ccc;
+  background: 0 0;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  font-size: 1em;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
+  tab-size: 4;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+}
+pre[class*='language-'] {
+  padding: 1em;
+  margin: 0.5em 0;
+  overflow: auto;
+}
+:not(pre) > code[class*='language-'],
+pre[class*='language-'] {
+  background: #2d2d2d;
+}
+:not(pre) > code[class*='language-'] {
+  padding: 0.1em;
+  border-radius: 0.3em;
+  white-space: normal;
+}
+.token.block-comment,
+.token.cdata,
+.token.comment,
+.token.doctype,
+.token.prolog {
+  color: #999;
+}
+.token.punctuation {
+  color: #ccc;
+}
+.token.attr-name,
+.token.deleted,
+.token.namespace,
+.token.tag {
+  color: #e2777a;
+}
+.token.function-name {
+  color: #6196cc;
+}
+.token.boolean,
+.token.function,
+.token.number {
+  color: #f08d49;
+}
+.token.class-name,
+.token.constant,
+.token.property,
+.token.symbol {
+  color: #f8c555;
+}
+.token.atrule,
+.token.builtin,
+.token.important,
+.token.keyword,
+.token.selector {
+  color: #cc99cd;
+}
+.token.attr-value,
+.token.char,
+.token.regex,
+.token.string,
+.token.variable {
+  color: #7ec699;
+}
+.token.entity,
+.token.operator,
+.token.url {
+  color: #67cdcc;
+}
+.token.bold,
+.token.important {
+  font-weight: 700;
+}
+.token.italic {
+  font-style: italic;
+}
+.token.entity {
+  cursor: help;
+}
+.token.inserted {
+  color: green;
+}
