@@ -1,1 +1,163 @@
-# Create mock api with json-server
+# Mock api server with `json-server`
+
+> A free online REST API that you can use whenever you need some fake data. It can be in a README on GitHub, for a demo on CodeSandbox, in code examples on Stack Overflow, ...or simply to test things locally.
+
+
+## About
+
+Free fake API for testing and prototyping.
+
+Website: [https://mock-api-demo.herokuapp.com](https://mock-api-demo.herokuapp.com/)
+
+## Deploy (local)
+
+- Requited: Node js environment [Node js](https://nodejs.org/en/)
+- Clone this project
+- Run step by step in terminal
+
+```json
+npm install
+
+node generate-data.js //optional: generate random data
+
+npm run dev //start dev server
+// Open in browser: https://localhost:3000/
+```
+
+## Usage
+Getting a resource
+```bash
+fetch('https://mock-api-demo.herokuapp.com/posts/1')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+👇 Output
+```bash
+{
+  id: 1,
+  title: '...',
+  body: '...',
+  userId: 1
+}
+```
+
+Listing all resources
+```bash
+fetch('https://mock-api-demo.herokuapp.com/posts')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+👇 Output
+```bash
+[
+  { id: 1, title: '...' /* ... */ },
+  { id: 2, title: '...' /* ... */ },
+  { id: 3, title: '...' /* ... */ },
+  /* ... */
+  { id: 100, title: '...' /* ... */ },
+];
+```
+
+Creating a resource
+```bash
+fetch('https://mock-api-demo.herokuapp.com/posts', {
+  method: 'POST',
+  body: JSON.stringify({
+    title: 'foo',
+    body: 'bar',
+    userId: 1,
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+👇 Output
+```bash
+{
+  id: 101,
+  title: 'foo',
+  body: 'bar',
+  userId: 1
+}
+```
+Updating a resource
+```bash
+fetch('https://mock-api-demo.herokuapp.com/posts/1', {
+  method: 'PUT',
+  body: JSON.stringify({
+    id: 1,
+    title: 'foo',
+    body: 'bar',
+    userId: 1,
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+👇 Output
+```bash
+{
+  id: 1,
+  title: 'foo',
+  body: 'bar',
+  userId: 1
+}
+```
+Patching a resource
+```bash
+fetch('https://mock-api-demo.herokuapp.com/posts/1', {
+  method: 'PATCH',
+  body: JSON.stringify({
+    title: 'foo',
+  }),
+  headers: {
+    'Content-type': 'application/json; charset=UTF-8',
+  },
+})
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+👇 Output
+```bash
+{
+  id: 1,
+  title: 'foo',
+  body: '...',
+  userId: 1
+}
+```
+
+Deleting a resource
+```bash
+fetch('https://mock-api-demo.herokuapp.com/posts/1', {
+  method: 'DELETE',
+});
+```
+
+Filtering resources
+```bash
+// This will return all the posts that belong to the first user
+fetch('https://mock-api-demo.herokuapp.com/posts?userId=1')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+
+
+Listing nested resources
+```bash
+// This is equivalent to /comments?postId=1
+fetch('https://mock-api-demo.herokuapp.com/posts/1/comments')
+  .then((response) => response.json())
+  .then((json) => console.log(json));
+```
+---
+
+## License
+
+[MIT](LICENSE) License.
